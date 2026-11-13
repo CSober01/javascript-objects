@@ -8,3 +8,16 @@ const product = {
 };
 let socialMediaShare = "facebookShare";
 // Start code here
+
+product.ratings = 4.5;
+product.photo =
+  "<Link href='https://i01.appmifile.com/webfile/globalimg/products/pc/mi-air-purifier-3H/replace_03.jpg'>https://i01.appmifile.com/webfile/globalimg/products/pc/mi-air-purifier-3H/replace_03.jpg</Link>";
+
+//ให้สร้าง Key ใหม่ที่ชื่อว่า code ใน Variable product โดยมี Value เป็น "IT0101010"
+product.code = "IT0101010";
+
+delete product.ratings;
+
+product.socialMediaShare = 45.5;
+
+console.log(product);
